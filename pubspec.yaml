@@ -1,5 +1,5 @@
 name: seeker
-description: A new Flutter package project.
+description: Custom widget Jobseeker .app & .partners
 version: 0.0.1
 # homepage:
 
@@ -15,3 +15,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/Inter-Regular.ttf
+        - asset: assets/Inter-Black.ttf
+        - asset: assets/Inter-Bold.ttf
+        - asset: assets/Inter-Light.ttf
+        - asset: assets/Inter-Medium.ttf
+        - asset: assets/Inter-SemiBold.ttf
+        - asset: assets/Inter-Bold.ttf
