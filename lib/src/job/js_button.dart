@@ -2,15 +2,14 @@
 import 'package:flutter/material.dart';
 
 import '../js_color.dart';
-import '../js_size.dart';
 
 class JSButton extends StatelessWidget {
   const JSButton({
     Key? key,
     required this.child,
     required this.onPressed,
-    this.width = JSSize.s300,
-    this.height = JSSize.s55,
+    this.minimumSize = const Size(double.infinity, 55.0),
+    this.maximumSize = Size.infinite,
     this.color = JSColor.pink50,
     this.shape,
     this.side,
@@ -18,8 +17,8 @@ class JSButton extends StatelessWidget {
 
   final Widget child;
   final VoidCallback onPressed;
-  final double width;
-  final double height;
+  final Size maximumSize;
+  final Size minimumSize;
   final Color color;
   final OutlinedBorder? shape;
   final BorderSide? side;
@@ -28,11 +27,12 @@ class JSButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: onPressed,
-      style: ButtonStyle(
-        backgroundColor: MaterialStatePropertyAll(color),
-        fixedSize: MaterialStatePropertyAll(Size(width, height)),
-        shape: MaterialStatePropertyAll(shape),
-        side: MaterialStatePropertyAll(side),
+      style: ElevatedButton.styleFrom(
+        backgroundColor: color,
+        maximumSize: maximumSize,
+        minimumSize: minimumSize,
+        shape: shape,
+        side: side,
       ),
       child: child,
     );

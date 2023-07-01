@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 
 import 'package:seeker/src/js_color.dart';
-import 'package:seeker/src/js_size.dart';
 
 class JSOutlinedButton extends StatelessWidget {
   const JSOutlinedButton({
@@ -10,31 +9,27 @@ class JSOutlinedButton extends StatelessWidget {
     required this.onPressed,
     required this.child,
     this.color = JSColor.pink50,
-    this.width = JSSize.s300,
-    this.height = JSSize.s55,
+    this.maximumSize = Size.infinite,
+    this.minimumSize = const Size(double.infinity, 55.0),
     this.shape,
   }) : super(key: key);
 
   final VoidCallback onPressed;
   final Widget child;
   final Color color;
-  final double width;
-  final double height;
+  final Size maximumSize;
+  final Size minimumSize;
   final OutlinedBorder? shape;
 
   @override
   Widget build(BuildContext context) {
     return OutlinedButton(
       onPressed: onPressed,
-      style: ButtonStyle(
-        side: MaterialStatePropertyAll(
-          BorderSide(color: color),
-        ),
-        shape: MaterialStatePropertyAll(shape),
-        fixedSize: MaterialStatePropertyAll(
-          Size(width, height),
-        ),
-      ),
+      style: OutlinedButton.styleFrom(
+          side: BorderSide(color: color),
+          shape: shape,
+          maximumSize: maximumSize,
+          minimumSize: minimumSize),
       child: child,
     );
   }

@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-class JSColor {
+abstract class JSColor {
   static const Color pink20 = Color(0xffFFF3F3);
   static const Color pink30 = Color(0xffFFB8DF);
   static const Color pink40 = Color(0xffDD3D95);

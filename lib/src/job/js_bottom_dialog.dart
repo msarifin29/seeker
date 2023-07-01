@@ -22,6 +22,6 @@ void jsBottomDialog({
           useRootNavigator: useRootNavifator,
           backgroundColor: color,
           builder: (BuildContext context) {
-            return child;
+            return SizedBox(width: double.infinity, child: child);
           });
     });

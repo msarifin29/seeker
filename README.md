@@ -30,16 +30,26 @@ JSOutlinedButton(child: const Text("Click"),
 
 #### JSDialog
 ```dart
-  jsDialog(
-    context,
-    content: [
-       const Icon(
-       Icons.favorite,
-       size: 200.0,
-       color: Colors.pink,
-             ),
-          ],
-    );
+jsDialog(
+  context,
+  height: 300,
+  child: const Column(
+    mainAxisSize: MainAxisSize.min,
+    children: [
+      Icon(
+        Icons.recommend,
+        size: 200.0,
+        color: Colors.pink,
+      ),
+      Text(
+        "Favorite",
+        style: TextStyle(
+          fontSize: 24.0,
+        ),
+      ),
+    ],
+  ),
+);
 ```
 
 #### JSBottomDialog
@@ -67,4 +77,16 @@ jsBottomDialog(
  ),
 );
 ```
+#### Box
 
+```dart
+    const HeightBox(Sizes.s24),
+    const WidthBox(Sizes.s24),
+```
+#### FontStyle
+
+```dart
+Text("Click button",
+  style: FontInterSemiBold(),
+)
+```
