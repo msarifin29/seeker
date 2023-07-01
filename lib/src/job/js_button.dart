@@ -9,7 +9,7 @@ class JSButton extends StatelessWidget {
     Key? key,
     required this.child,
     required this.onPressed,
-    this.width = JSSize.s100,
+    this.width = JSSize.s300,
     this.height = JSSize.s55,
     this.color = JSColor.pink50,
     this.shape,

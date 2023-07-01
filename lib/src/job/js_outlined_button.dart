@@ -10,7 +10,7 @@ class JSOutlinedButton extends StatelessWidget {
     required this.onPressed,
     required this.child,
     this.color = JSColor.pink50,
-    this.width = JSSize.s100,
+    this.width = JSSize.s300,
     this.height = JSSize.s55,
     this.shape,
   }) : super(key: key);
