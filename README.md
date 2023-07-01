@@ -56,9 +56,7 @@ jsDialog(
 ```dart
 jsBottomDialog(
  context: context,
- child: const SizedBox(
-   width: double.infinity,
-   child: Column(
+ child:  Column(
    mainAxisSize: MainAxisSize.min,
      children: [
      Icon(
@@ -74,7 +72,6 @@ jsBottomDialog(
      ),
    ],
   ),
- ),
 );
 ```
 #### Box
