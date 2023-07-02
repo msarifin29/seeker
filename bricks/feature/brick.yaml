@@ -1,4 +1,4 @@
-name: domain
+name: feature
 description: A new brick created with the Mason CLI.
 
 # The following defines the brick repository url.
@@ -27,6 +27,6 @@ environment:
 vars:
   name:
     type: string
-    description: Create domain, include entities, repository and usecase
-    default: domain
-    prompt: What your domain name?
+    description: Your Feature
+    default: feature
+    prompt: Input your feature name?

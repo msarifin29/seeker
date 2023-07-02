@@ -3,5 +3,3 @@ bricks:
     path: stl
   model:
     path: model
-  domain:
-    path: domain
