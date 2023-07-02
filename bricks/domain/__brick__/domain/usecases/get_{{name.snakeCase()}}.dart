@@ -1,0 +1,1 @@
+class Get{{name.pascalCase()}}{}
