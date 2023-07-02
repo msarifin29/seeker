@@ -36,3 +36,4 @@ migrate_working_dir/
 build/
 
 .fvm/
+.mason/

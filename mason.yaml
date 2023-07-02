@@ -1,0 +1,5 @@
+bricks:
+  stl:
+    path: stl
+  model:
+    path: model
