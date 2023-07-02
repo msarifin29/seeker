@@ -3,3 +3,5 @@ bricks:
     path: stl
   model:
     path: model
+  feature:
+    path: feature

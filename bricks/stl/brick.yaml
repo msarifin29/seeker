@@ -27,6 +27,11 @@ environment:
 vars:
   name:
     type: string
-    description: Your name
+    description: Make a stateless widget
     default: stl
-    prompt: What is your widget name?
+    prompt: widget name?
+  isStateless:
+    type: boolean
+    description: Use Stateless
+    default: true
+    prompt: Do you want to use Stateless?
