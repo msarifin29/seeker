@@ -5,3 +5,5 @@ bricks:
     path: model
   feature:
     path: feature
+  test:
+    path: test
