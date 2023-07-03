@@ -71,7 +71,7 @@ mason make feature
 
 ```
 
-```dart
+```
 ? Input your feature name? (feature) auth
 ✓ Generated 9 files. (0.2s)
   created auth\data\data_sources\remote_data_source.dart
