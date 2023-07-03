@@ -52,6 +52,19 @@ mason ls -g
 
 #### Usage
 
+Required depencies
+
+```dart
+
+dependencies:
+  equatable: ^2.0.3
+  flutter_bloc: ^8.0.1
+
+dev_dependencies:
+  bloc_test: 
+
+```
+
 ```dart
 
 mason make feature
