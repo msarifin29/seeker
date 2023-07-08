@@ -1,5 +1,5 @@
 # seeker
-## required sdk : 3.7.0
+## required sdk : 3.10.0
 
 ## Installing
 
