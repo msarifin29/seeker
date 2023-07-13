@@ -1,9 +1,0 @@
-bricks:
-  stl:
-    path: stl
-  model:
-    path: model
-  feature:
-    path: feature
-  test:
-    path: test
