@@ -1,6 +1,4 @@
 
-# 🧱 [Create Reusable Template]()
-[Readme..](https://github.com/msarifin29/seeker/tree/master/bricks)
 ```
 ? Input your feature name? (feature) auth
 ✓ Generated 9 files. (0.2s)
