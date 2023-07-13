@@ -2,6 +2,9 @@
 import 'package:flutter/widgets.dart';
 
 class WidthBox extends SizedBox {
+  ///```dart
+  ///WidthBox(22.0)
+  ///```
   const WidthBox(
     this.width,
   );
@@ -10,6 +13,9 @@ class WidthBox extends SizedBox {
 }
 
 class HeightBox extends SizedBox {
+  ///```dart
+  ///HeightBox(22.0)
+  ///```
   const HeightBox(
     this.height,
   );

@@ -1,6 +1,27 @@
 import 'package:flutter/material.dart';
 
 void jsBottomDialog({
+  /// ```dart
+  ///jsBottomDialog(
+  /// context: context,
+  /// child:  Column(
+  ///   mainAxisSize: MainAxisSize.min,
+  ///     children: [
+  ///     Icon(
+  ///       Icons.recommend,
+  ///       size: 200.0,
+  ///       color: Colors.pink,
+  ///     ),
+  ///    Text(
+  ///      "Favorite",
+  ///       style: TextStyle(
+  ///          fontSize: 24.0,
+  ///        ),
+  ///     ),
+  ///   ],
+  ///  ),
+  ///);
+  ///```
   required BuildContext context,
   required Widget child,
   Color color = Colors.white,

@@ -4,6 +4,11 @@ import 'package:flutter/material.dart';
 import '../js_color.dart';
 
 class JSButton extends StatelessWidget {
+  ///```dart
+  ///JSButton(child: const Text("Click"),
+  ///  onPressed: () {},
+  ///)
+  ///```
   const JSButton({
     Key? key,
     required this.child,

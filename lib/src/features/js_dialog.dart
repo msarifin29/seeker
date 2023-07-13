@@ -2,6 +2,28 @@
 import 'package:flutter/material.dart';
 
 Future<T?> jsDialog<T>(
+  ///```dart
+  ///jsDialog(
+  ///  context,
+  ///  height: 300,
+  ///  child: const Column(
+  ///    mainAxisSize: MainAxisSize.min,
+  ///    children: [
+  ///      Icon(
+  ///        Icons.recommend,
+  ///        size: 200.0,
+  ///        color: Colors.pink,
+  ///      ),
+  ///      Text(
+  ///        "Favorite",
+  ///        style: TextStyle(
+  ///          fontSize: 24.0,
+  ///        ),
+  ///      ),
+  ///    ],
+  ///  ),
+  ///);
+  ///```
   BuildContext context, {
   bool barrierDissible = false,
   bool useSafeArea = true,
